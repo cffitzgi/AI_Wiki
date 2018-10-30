@@ -1,0 +1,91 @@
+body{
+}
+
+table{
+    float: right;
+    border: 2px solid black;
+    width: auto;
+    background-color: white;
+    display: block;
+}
+
+td{
+    text-align: center;
+    border: none;
+}
+
+td.title{
+    font-weight: bold;
+    font-size: 20pt;
+    border: 3px solid black;
+
+}
+
+td.main{
+    font-size: 12pt;
+    border-bottom: 1px solid black;
+    width: auto;
+}
+
+td.sub{
+    font-size: 11pt;
+    background-color: lightgrey;
+}
+
+p{
+    font-size: 11pt;
+    line-height: 5px;
+}
+
+/*~~~~~HEADERS~~~~~*/
+h1{
+    line-height: 25pt;
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+}
+
+h2{
+    line-height: 18pt;
+    word-wrap: break-word;
+}
+
+h3{
+    font-size: 18pt;
+    border-bottom: 3px solid black;
+    display: block;
+}
+
+/*Headers 4-6 & respective paragraph classes*/
+h4 {
+    text-indent: 50px;
+    font-size: 15pt;
+    font-weight: bolder;
+    line-height: 9px;
+}
+p.h4{
+    text-indent: 50px;
+}
+
+
+h5{
+    text-indent: 100px;
+    font-size: 13pt;
+    font-weight: bold;
+    line-height: 7px;
+
+}
+p.h5{
+    text-indent: 100px;
+}
+
+
+h6{
+    text-indent: 150px;
+    font-size: 12pt;
+    padding-bottom: 5pt;
+}
+p.h6{
+    text-indent: 150px;
+
+}
+/*End of headers 4-6*/
