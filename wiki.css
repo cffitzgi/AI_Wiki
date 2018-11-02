@@ -1,16 +1,16 @@
-body{
-}
 
+/*~~~LIST STYLE~~~*/
 ul{
     margin-left: 55px;
     border-left: 2px solid gray;
 }
 
-ul > li {
+ul > li{
     padding-bottom: 10px;
 }
 
 
+/*~~~TABLE STYLE~~~*/
 table{
     float: right;
     border: 4px solid black;
@@ -33,8 +33,8 @@ td.title{
 
 td.main{
     font-size: 14pt;
+    border: 1px solid gray;
     border-bottom: 1px solid black;
-    width: auto;
 }
 
 td.sub{
@@ -42,12 +42,12 @@ td.sub{
     background-color: lightgrey;
 }
 
+/*~~~DEFAULT PARAGRAPH STYLE~~~*/
 p{
     font-size: 11pt;
-
 }
 
-/*~~~~~HEADERS~~~~~*/
+/*~~~HEADERS AND P CHILDREN~~~*/
 h1{
     line-height: 25pt;
     border-bottom: 3px solid black;
@@ -67,25 +67,20 @@ h3{
     padding-top: 20px;
 }
 
-/*Headers 4-6 & respective paragraph classes*/
-h4 {
+/*Headers 4-6 have respective paragraph classes*/
+h4{
     margin-left: 50px;
     font-size: 15pt;
     font-weight: bolder;
     line-height: 0px;
     padding-top: 7px;
-
-
-
 }
-
 p.h4{
     margin-left: 55px;
     font-size: 12pt;
     border-left: 2px solid grey;
     padding-left: 20px;
     margin-top: -10px;
-
 }
 
 
@@ -95,8 +90,6 @@ h5{
     font-weight: bold;
     line-height: 0px;
     padding-top: 7px;
-
-
 }
 p.h5{
     margin-left: 105px;
@@ -105,7 +98,6 @@ p.h5{
     margin-top: -10px
 }
 
-
 h6{
     margin-left: 150px;
     font-size: 12pt;
@@ -113,6 +105,4 @@ h6{
 }
 p.h6{
     margin-left: 150px;
-
 }
-/*End of headers 4-6*/
