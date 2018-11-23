@@ -38,13 +38,13 @@ td.main{
 }
 
 td.sub{
-    font-size: 10pt;
+    font-size: 11pt;
     background-color: lightgrey;
 }
 
 /*~~~DEFAULT PARAGRAPH STYLE~~~*/
 p{
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 /*~~~HEADERS AND P CHILDREN~~~*/
@@ -52,6 +52,7 @@ h1{
     line-height: 25pt;
     border-bottom: 3px solid black;
     font-weight: bolder;
+    font-size: 30pt;
 }
 
 h2{
@@ -73,7 +74,7 @@ h4{
     font-size: 15pt;
     font-weight: bolder;
     line-height: 0px;
-    padding-top: 7px;
+    padding-top: 0px;
 }
 p.h4{
     margin-left: 55px;
