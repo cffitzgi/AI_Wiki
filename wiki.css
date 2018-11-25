@@ -6,9 +6,24 @@ ul{
 }
 
 ul > li{
-    padding-bottom: 10px;
+    padding-bottom: 10pt;
 }
 
+ol{
+    list-style-type: none;
+}
+ol > li{
+    padding-bottom: 5px;
+}
+
+
+img{
+    float: right;
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    border: 3px solid lightgrey;
+}
 
 /*~~~TABLE STYLE~~~*/
 table{
