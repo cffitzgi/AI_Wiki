@@ -16,7 +16,7 @@ ol > li{
     padding-bottom: 5px;
 }
 
-
+/*~~~IMAGE FORMATTING~~~*/
 img{
     float: right;
     width: 250px;
@@ -71,6 +71,7 @@ h1{
 }
 
 h2{
+    font-size: 15pt;
     line-height: 15pt;
     word-wrap: break-word;
     margin-top: -10px;
@@ -93,7 +94,6 @@ h4{
 }
 p.h4{
     margin-left: 55px;
-    font-size: 12pt;
     border-left: 2px solid grey;
     padding-left: 20px;
     margin-top: -10px;
@@ -105,7 +105,7 @@ h5{
     font-size: 13pt;
     font-weight: bold;
     line-height: 0px;
-    padding-top: 7px;
+    padding-top: 0px;
 }
 p.h5{
     margin-left: 105px;
@@ -117,8 +117,13 @@ p.h5{
 h6{
     margin-left: 150px;
     font-size: 12pt;
-    padding-bottom: 5px;
+    line-height: 0px;
+    padding-top: -25px;
+
 }
 p.h6{
-    margin-left: 150px;
+    margin-left: 155px;
+    border-left: 2px solid gray;
+    padding-left: 20px;
+    margin-top: -25px
 }
