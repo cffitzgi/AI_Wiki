@@ -17,12 +17,34 @@ ol > li{
 }
 
 /*~~~IMAGE FORMATTING~~~*/
+
+div.img{
+    float: right;
+    display: inline-block;
+    background-color: lightgrey;
+    width: 260px;
+    font-size: 10pt;
+    line-height: 10pt;
+    text-align: center;
+    padding-bottom: 5px;
+}
 img{
     float: right;
     width: 250px;
     height: auto;
     display: inline-block;
     border: 3px solid lightgrey;
+    padding-bottom: 5px;
+}
+
+p.img{
+    float: bottom;
+    font-size: 10pt;
+    background-color: lightgrey;
+    border: 3px solid lightgrey;
+    width: 250px;
+    height: auto;
+    display: inline-block;
 }
 
 /*~~~TABLE STYLE~~~*/
